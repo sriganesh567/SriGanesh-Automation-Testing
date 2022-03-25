@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-25T16:21:08 IST" name="Testing Google Apps" finished-at="2022-03-25T16:21:29 IST" duration-ms="21073">
+    <groups>
+      <group name="cucumber">
+        <method signature="BasicRunner.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ficusrealtime.runner.BasicRunner@368247b9]" name="runScenario" class="com.ficusrealtime.runner.BasicRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-03-25T16:21:08 IST" name="uilocal" finished-at="2022-03-25T16:21:26 IST" duration-ms="17827">
+      <class name="com.ficusrealtime.runner.BasicRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.ficusrealtime.runner.BasicRunner@368247b9]" started-at="2022-03-25T16:21:08 IST" name="setUpClass" finished-at="2022-03-25T16:21:08 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpMethod(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ficusrealtime.runner.BasicRunner@368247b9]" started-at="2022-03-25T16:21:08 IST" name="setUpMethod" finished-at="2022-03-25T16:21:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[remote]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ui]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="Setup()[pri:0, instance:com.ficusrealtime.runner.BasicRunner@368247b9]" started-at="2022-03-25T16:21:08 IST" name="Setup" finished-at="2022-03-25T16:21:14 IST" duration-ms="5804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method is-config="true" signature="setUpMethod(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ficusrealtime.runner.BasicRunner@368247b9]" started-at="2022-03-25T16:21:14 IST" name="setUpMethod" finished-at="2022-03-25T16:21:14 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[remote]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ui]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ficusrealtime.runner.BasicRunner@368247b9]" started-at="2022-03-25T16:21:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-25T16:21:25 IST" duration-ms="10716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Top Ribbon verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[FicusRealTime-HomepageVerification]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="setUpMethod(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ficusrealtime.runner.BasicRunner@368247b9]" started-at="2022-03-25T16:21:25 IST" name="setUpMethod" finished-at="2022-03-25T16:21:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[remote]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ui]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="tearDown()[pri:0, instance:com.ficusrealtime.runner.BasicRunner@368247b9]" started-at="2022-03-25T16:21:25 IST" name="tearDown" finished-at="2022-03-25T16:21:26 IST" duration-ms="905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.ficusrealtime.runner.BasicRunner@368247b9]" started-at="2022-03-25T16:21:26 IST" name="tearDownClass" finished-at="2022-03-25T16:21:26 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.ficusrealtime.runner.BasicRunner -->
+    </test> <!-- uilocal -->
+    <test started-at="2022-03-25T16:21:26 IST" name="Webservices" finished-at="2022-03-25T16:21:29 IST" duration-ms="3227">
+      <class name="com.ficusrealtime.steps.rest">
+        <test-method signature="resttest()[pri:0, instance:com.ficusrealtime.steps.rest@6c2ed0cd]" started-at="2022-03-25T16:21:26 IST" name="resttest" finished-at="2022-03-25T16:21:29 IST" duration-ms="3224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resttest -->
+      </class> <!-- com.ficusrealtime.steps.rest -->
+    </test> <!-- Webservices -->
+  </suite> <!-- Testing Google Apps -->
+</testng-results>

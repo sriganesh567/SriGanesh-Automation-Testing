@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Google Apps">
+    <test name="uilocal">
+    	
+    	<parameter name="browser" value ="chrome"></parameter>
+    	<parameter name="remote" value ="remote"></parameter>
+    	<parameter name="type" value ="ui"></parameter>
+         <classes>
+             <class name="com.SriGanesh.runner.BasicRunner"/>
+            
+          </classes>
+        </test> <!-- Test -->
+         <test name="Webservices">
+          <parameter name="browser" value =""></parameter>
+    	<parameter name="remote" value =""></parameter>
+    	<parameter name="type" value =""></parameter>
+         <classes>
+             <class name="com.SriGanesh.steps.rest"/>
+            
+          </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->
