@@ -29,8 +29,7 @@ import io.cucumber.testng.TestNGCucumberRunner;
 import io.github.bonigarcia.wdm.WebDriverManager;
 @Test
 
-@CucumberOptions(features = "Features", glue = "com.SriGanesh.steps")
-//, plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
+@CucumberOptions(features = "Features", glue = "com.SriGanesh.steps", plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
 
 public class BasicRunner{
 	  private TestNGCucumberRunner testNGCucumberRunner;
